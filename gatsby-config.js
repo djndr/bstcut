@@ -1,4 +1,4 @@
-require("dotenv").config({
+crequire("dotenv").config({
   path: `.env`,
 })
 
@@ -10,7 +10,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Gatsby WordPress dailycatchat`,
-    description: `Gatsby dailycatchat site for dailycatchat Gatsby Theme.`,
+    description: `Gatsby bestcuteanimals site for bestcuteanimals Gatsby Theme.`,
     author: `@developershagor`,
   },
   plugins: [
@@ -36,7 +36,7 @@ module.exports = {
           },
         },
         // url: process.env.WPGRAPHQL_URL,
-        url: `https://www.dailycatchat.com/graphql`,
+        url: `https://www.bestcuteanimals.com/graphql`,
         verbose: true,
         develop: {
           hardCacheMediaFiles: false,
